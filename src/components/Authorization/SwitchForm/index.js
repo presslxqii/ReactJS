@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './AuthSwitchForm.module.scss'
+import style from './style.module.scss'
 import { NavLink } from 'react-router-dom'
 
 export default () => {
@@ -16,6 +16,9 @@ export default () => {
                         Registration
                      </NavLink>
                 </div>
+            </div>
+            <div>
+                {this.props.children}
             </div>
         </div>
     );

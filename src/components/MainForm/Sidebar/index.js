@@ -1,18 +1,25 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
+import style from './style.module.scss'
 
 export default () => {
     return (
-        <div>
-            <NavLink to='/profile'>
-                Profile
-            </NavLink>
-            <NavLink to='/messages'>
-                Messages
-            </NavLink>
-            <NavLink to='/settings'>
-                Settings
-            </NavLink>
+        <div className={style.sidebar}>
+            <div>
+                <NavLink to='/profile'  activeClassName={style.active}>
+                    Profile
+                </NavLink>
+            </div>
+            <div>
+                <NavLink to='/messages'  activeClassName={style.active}>
+                    Messages
+                </NavLink>
+            </div>
+            <div>
+                <NavLink to='/settings'  activeClassName={style.active}>
+                    Settings
+                </NavLink>
+            </div>
         </div>
     );
 }

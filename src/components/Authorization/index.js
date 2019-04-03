@@ -8,9 +8,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Route path='/auth' component={AuthSwitchForm}/>
-                <Route path='/auth/login' component={LoginBox}/>
-                <Route path='/auth/registration' component={RegisterBox}/>
+
             </div>
         );
     }
