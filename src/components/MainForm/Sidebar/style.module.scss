@@ -1,0 +1,24 @@
+
+.sidebar{
+  grid-area: sidebar;
+  font-size: 25px;
+
+  div{
+    display: grid;
+    grid-template-rows: 25px;
+
+    a {
+      color: #696e74;
+    }
+
+    :hover {
+      color: cyan;
+      text-decoration: none;
+    }
+
+    .active {
+      text-decoration: none;
+      color: #b3b2b2;
+    }
+  }
+}

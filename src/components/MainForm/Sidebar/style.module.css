@@ -1,0 +1,21 @@
+.sidebar {
+  grid-area: sidebar;
+  font-size: 25px;
+}
+.sidebar div {
+  display: grid;
+  grid-template-rows: 25px;
+}
+.sidebar div a {
+  color: #696e74;
+}
+.sidebar div :hover {
+  color: cyan;
+  text-decoration: none;
+}
+.sidebar div .active {
+  text-decoration: none;
+  color: #b3b2b2;
+}
+
+/*# sourceMappingURL=style.module.css.map */

@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-areas: "header header" "sidebar profile";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/*# sourceMappingURL=style.module.css.map */
